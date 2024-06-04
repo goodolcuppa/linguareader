@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.books.BooksFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/filter_bar"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@+id/filter_bar"
+            android:id="@+id/rv_books"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="10dp"/>
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/book_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_gravity="bottom|center"
+        app:shapeAppearanceOverlay="@style/AppTheme.FloatingActionButton"
+        android:backgroundTint="?attr/colorSecondary"
+        android:text="@string/import_book"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:textColor="?attr/colorOnSecondary"
+        app:icon="@drawable/ic_plus"
+        app:iconTint="?attr/colorOnSecondary"
+        android:minHeight="0dp"
+        android:padding="10dp"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

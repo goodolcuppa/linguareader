@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "573653195690",
+    "project_id": "linguareader-bf671",
+    "storage_bucket": "linguareader-bf671.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573653195690:android:665bb7410d44892d7129d3",
+        "android_client_info": {
+          "package_name": "com.example.linguareader"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRePGR4wJtRn28y73H3Nw73PcX7xyDgyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filter_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/language_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                app:cardCornerRadius="8dp"
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="@android:color/transparent"
+                app:cardElevation="0dp">
+
+                <HorizontalScrollView
+                    android:id="@+id/tags_scroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <RadioGroup
+                        android:id="@+id/rg_language"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_all"
+                            android:layout_width="wrap_content"
+                            android:layout_height="28dp"
+                            android:layout_marginEnd="5dp"
+                            android:paddingHorizontal="4dp"
+                            android:background="@drawable/rb_language"
+                            android:button="@android:color/transparent"
+                            android:checked="true"
+                            android:text="@string/all"
+                            android:textColor="@drawable/rb_text_language"
+                            android:textAlignment="center"/>
+
+                    </RadioGroup>
+
+                </HorizontalScrollView>
+
+            </androidx.cardview.widget.CardView>
+
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="@string/more"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:fontFamily="sans-serif"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:background="@drawable/button_primary"-->
+<!--                android:minWidth="0dp"-->
+<!--                android:minHeight="0dp"-->
+<!--                android:paddingVertical="0dp"-->
+<!--                android:paddingHorizontal="4dp"-->
+<!--                android:layout_marginEnd="5dp"/>-->
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <EditText
+            android:id="@+id/et_filter"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/edit_text_rounded"
+            android:drawableStart="@drawable/ic_decks"
+            android:drawableTint="@color/grey"
+            android:drawablePadding="12dp"
+            android:imeActionLabel="Search"
+            android:inputType="text"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:hint="@string/search_hint"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textSize="14sp"
+            android:textColorHint="@color/grey"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

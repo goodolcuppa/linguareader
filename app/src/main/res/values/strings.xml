@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Linguareader</string>
+
+    <!-- Page labels -->
+    <string name="title_home">Home</string>
+    <string name="navbar_home">home</string>
+    <string name="title_books">Library</string>
+    <string name="navbar_books">books</string>
+    <string name="title_decks">Flashcards</string>
+    <string name="navbar_decks">decks</string>
+    <string name="title_settings">Settings</string>
+    <string name="navbar_settings">settings</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="premium_status">premium</string>
+
+    <!-- Login fields -->
+    <string name="email_label">Email</string>
+    <string name="email_hint">example@example.com</string>
+    <string name="password_label">Password</string>
+    <string name="password_hint">********</string>
+    <string name="confirm_password_label">Confirm Password</string>
+
+    <!-- Actions page -->
+    <string name="action_login">Log in</string>
+    <string name="action_signup">Sign up</string>
+
+    <!-- Login buttons -->
+    <string name="login">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="logout">Logout</string>
+    <string name="local_user">Local user</string>
+    <string name="create_account">Create an account…</string>
+    <string name="have_account">Already have an account…</string>
+
+    <!-- Login toasts -->
+    <string name="login_success">Logged in successfully.</string>
+    <string name="login_failed">Login failed.</string>
+    <string name="signup_success">Account created successfully.</string>
+    <string name="signup_failed">Account creation failed.</string>
+
+    <!-- Home page -->
+    <string name="start_reading">Start reading…</string>
+    <string name="continue_reading">Continue reading…</string>
+    <string name="import_first_book">Import your first book +</string>
+
+    <!-- Filter bar -->
+    <string name="all">All</string>
+    <string name="more">More…</string>
+    <string name="search_hint">Search…</string>
+
+    <!-- Library page -->
+    <string name="default_title">New Book</string>
+    <string name="default_author">Unknown Author</string>
+    <string name="default_rating">4.5</string>
+    <string name="read">Read</string>
+    <string name="import_book">Import Book</string>
+
+    <!-- Book dialog -->
+    <string name="import_new_book">Import New Book</string>
+    <string name="default_filepath">path/to/file.txt</string>
+    <string name="title_label">Title</string>
+    <string name="author_label">Author</string>
+    <string name="language_label">Language Code</string>
+    <string name="default_language">Unspecified</string>
+
+    <!-- Flashcards page -->
+    <string name="default_deck">New Deck</string>
+    <string name="default_cards">x52</string>
+    <string name="import_deck">Import Deck</string>
+
+    <!-- Deck dialog -->
+    <string name="import_new_deck">Import New Deck</string>
+    <string name="deck_label">Name</string>
+    <string name="preview">Preview:</string>
+
+    <!-- Studying page -->
+    <string name="default_word">Word</string>
+    <string name="default_translation">Translation</string>
+    <string name="reveal">Reveal</string>
+    <string name="unknown_button">Don\'t Know</string>
+    <string name="known_button">Know</string>
+
+    <!-- Reading page -->
+    <string name="download_model">Downloading Translation Model…</string>
+    <string name="page_placeholder">Page - 1 of 1</string>
+
+    <!-- Upgrade page -->
+    <string name="upgrade">Upgrade</string>
+    <string name="free">Free</string>
+    <string name="premium">Premium</string>
+    <string name="free_price">£0.00/month</string>
+    <string name="premium_price">£3.99/month</string>
+    <string name="feature">Feature</string>
+    <string name="title_premium">Linguareader Premium</string>
+
+    <!-- Buttons -->
+    <string name="import_button">Import</string>
+    <string name="cancel_button">Cancel</string>
+
+    <!-- Word familiarities -->
+    <string name="unknown">Unknown</string>
+    <string name="learning">Learning</string>
+    <string name="known">Known</string>
+
+    <string name="delete">delete</string>
+
+    <string name="ltr_long">"this is <annotation key="rounded">a paragraph \nthat would cover more than\ntwo</annotation> lines."</string>
+</resources>

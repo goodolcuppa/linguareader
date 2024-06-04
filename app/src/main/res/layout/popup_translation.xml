@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/translation_popup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="?attr/colorPrimary"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <RadioGroup
+            android:id="@+id/familiarity_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_unknown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/rb_language"
+                android:button="@android:color/transparent"
+                android:checked="true"
+                android:text="@string/unknown"
+                android:textAlignment="center"
+                android:padding="4dp"/>
+
+            <RadioButton
+                android:id="@+id/radio_learning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/rb_language"
+                android:button="@android:color/transparent"
+                android:text="@string/learning"
+                android:textAlignment="center"
+                android:padding="4dp"/>
+
+            <RadioButton
+                android:id="@+id/radio_known"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/rb_language"
+                android:button="@android:color/transparent"
+                android:text="@string/known"
+                android:textAlignment="center"
+                android:padding="4dp"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/translation_popup_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_translation"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

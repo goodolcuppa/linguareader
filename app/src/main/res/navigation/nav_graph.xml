@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.linguareader.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home_to_books"
+            app:destination="@id/navigation_books" />
+        <action
+            android:id="@+id/action_home_to_decks"
+            app:destination="@id/navigation_decks" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_books"
+        android:name="com.example.linguareader.ui.books.BooksFragment"
+        android:label="@string/title_books"
+        tools:layout="@layout/fragment_books" />
+
+    <fragment
+        android:id="@+id/navigation_decks"
+        android:name="com.example.linguareader.ui.decks.DecksFragment"
+        android:label="@string/title_decks"
+        tools:layout="@layout/fragment_decks" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.linguareader.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

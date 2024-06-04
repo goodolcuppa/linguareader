@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RoundedBgTextView" parent="@android:style/Widget.TextView">
+        <item name="roundedTextHorizontalPadding">2dp</item>
+        <item name="roundedTextVerticalPadding">1dp</item>
+        <item name="roundedTextDrawable">@drawable/rounded</item>
+        <item name="roundedTextDrawableLeft">@drawable/rounded_left</item>
+        <item name="roundedTextDrawableMid">@drawable/rounded_mid</item>
+        <item name="roundedTextDrawableRight">@drawable/rounded_right</item>
+    </style>
+
+</resources>

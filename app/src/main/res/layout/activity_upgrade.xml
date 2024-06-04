@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpgradeActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="40dp"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="?attr/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/free"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/free_price"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="12sp"
+                        android:layout_marginBottom="5dp"
+                        android:visibility="invisible"/>
+
+                    <include layout="@layout/feature_row"/>
+                    <include layout="@layout/feature_row"/>
+                    <include layout="@layout/feature_row"/>
+                    <include layout="@layout/feature_row"/>
+                    <include layout="@layout/feature_row"/>
+                    <include layout="@layout/feature_row"/>
+
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/grey"
+                    android:layout_marginHorizontal="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/premium"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/premium_price"
+                        android:textSize="12sp"
+                        android:layout_marginBottom="5dp"/>
+
+                    <include layout="@layout/feature_row"/>
+                    <include layout="@layout/feature_row"/>
+                    <include layout="@layout/feature_row"/>
+                    <include layout="@layout/feature_row"/>
+                    <include layout="@layout/feature_row"/>
+                    <include layout="@layout/feature_row"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="16dp">
+
+                <Button
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:layout_marginEnd="5dp"
+                    android:text="@string/cancel_button"
+                    style="@style/AppTheme.Button.Secondary"
+                    android:background="@drawable/button_secondary"/>
+
+                <Button
+                    android:id="@+id/btn_upgrade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:layout_marginStart="5dp"
+                    android:text="Upgrade"
+                    style="@style/AppTheme.Button.Primary"
+                    android:background="@drawable/button_primary"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
