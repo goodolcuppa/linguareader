@@ -9,6 +9,8 @@ Language learning tool built using Android Studio and Kotlin
 - Import flashcard decks as .txt files using custom formatting (word:translation;next word:next translation)
 - Study flashcard decks
 
+For testing purposes, use files stored under `TestFiles` to import into the app.
+
 # Login
 The login page allows users to create or login with an account using email and password, or bypass this step as a local user.
 

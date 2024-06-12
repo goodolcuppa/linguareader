@@ -1,0 +1,1 @@
+вода:water;врач:doctor;хлеб:bread;учитель:teacher;женщина:woman;ванная комната:bathroom;мужчина:man;кровать:bed;

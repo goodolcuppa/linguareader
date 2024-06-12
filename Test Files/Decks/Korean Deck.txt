@@ -1,0 +1,1 @@
+물:water;의사:doctor;빵:bread;선생님:teacher;여성:woman;화장실:bathroom;남성:man;침대:bed;

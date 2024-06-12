@@ -1,0 +1,1 @@
+Hierbei handelt es sich um ein auf Englisch verfasstes Testdokument. Sein Zweck besteht darin, sicherzustellen, dass Wörter auf der Leseseite korrekt angezeigt werden, und zu testen, ob Übersetzungen korrekt angezeigt werden.

@@ -1,0 +1,1 @@
+agua:water;doctor:doctor;pan:bread;maestra:teacher;mujer:woman;bano:bathroom;hombre:man;cama:bed;

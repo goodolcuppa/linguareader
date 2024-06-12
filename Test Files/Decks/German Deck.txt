@@ -1,0 +1,1 @@
+wasser:water;arzt:doctor;brot:bread;lehrer:teacher;frau:woman;badezimmer:bathroom;mann:man;bett:bed;

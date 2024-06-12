@@ -1,0 +1,1 @@
+Il s'agit d'un document de test rédigé en anglais. Son objectif est de garantir que les mots s'affichent correctement sur la page de lecture et de tester que les traductions s'affichent correctement.
